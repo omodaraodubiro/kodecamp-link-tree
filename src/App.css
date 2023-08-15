@@ -58,8 +58,26 @@ footer {
 .footer-task {
   display: flex;
   justify-content: space-evenly;
-  padding: 80px;
+  padding: 40px;
 }
 .footer-text {
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .left-icon {
+    padding-right: 20px;
+    font-size: 15px;
+  }
+  .right-icon {
+    font-size: 15px;
+  }
+  .footer-task {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
 }
