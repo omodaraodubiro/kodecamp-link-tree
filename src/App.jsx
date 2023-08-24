@@ -20,7 +20,7 @@ function App() {
       <div className="linktree-container">
         <main>
           <div className="profile">
-            <img src="kodecamp-link-tree/omodara.jpeg" alt="Profile" />
+            <img src="https://i.imgur.com/6c0Bxbj.jpg" alt="Profile" />
             <h2>omodara odubiro</h2>
           </div>
           <div className="links">
@@ -37,9 +37,9 @@ function App() {
         </div>
         <footer>
           <div className="footer-task">
-            <img src="kodecamp-link-tree/kodecamp1.png" alt="kodecamp-logo" />
+            <img src="https://i.imgur.com/4hj6No3.png" alt="kodecamp-logo" />
             <h2 className="footer-text">KodeCamp Internship Task</h2>
-            <img src="kodecamp-link-tree/kodeHauz.png" alt="kodecamp-logo" />
+            <img src="https://i.imgur.com/xF4oeap.png" alt="kodecamp-logo" />
           </div>
         </footer>
       </div>
